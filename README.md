@@ -1,134 +1,102 @@
-<h2 align="center"># quan_ly_van_ban
-
-    <a href="https://vnu.edu.vn/vi/">
-
-    🎓 Trường Đại Học Công Nghệ - Đại Học Quốc Gia TP.HCMA new Flutter project.
-
-    </a>
-
-</h2>## Getting Started
-
 <h2 align="center">
-
-   HỆ THỐNG QUẢN LÝ TÀI LIỆU THÔNG MINHThis project is a starting point for a Flutter application.
-
+    <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
+    🎓 Faculty of Information Technology (DaiNam University)
+    </a>
 </h2>
-
-<h2 align="center">A few resources to get you started if this is your first Flutter project:
-
-   VỚI XÁC THỰC FIREBASE VÀ TRÍCH XUẤT VĂN BẢN TỰ ĐỘNG (OCR)
-
-</h2>- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
+<h2 align="center">
+   ỨNG DỤNG QUẢN LÝ TÀI LIỆU THÔNG MINH
+</h2>
 <div align="center">
-
-    <p align="center">For help getting started with Flutter development, view the
-
-        <img src="assets/flutter_logo.png" alt="Flutter Logo" width="120"/>[online documentation](https://docs.flutter.dev/), which offers tutorials,
-
-        <img src="assets/firebase_logo.png" alt="Firebase Logo" width="120"/>samples, guidance on mobile development, and a full API reference.
-
-        <img src="assets/ml_kit_logo.png" alt="ML Kit Logo" width="120"/>
+    <p align="center">
+        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="docs/fitdnu_logo.png" alt="FIT DNU Logo" width="180"/>
+        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.8+-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-v13+-orange?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/)
-[![Google ML Kit](https://img.shields.io/badge/Google%20ML%20Kit-OCR-green?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/ml-kit)
-
-[![Dart](https://img.shields.io/badge/Language-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
 
 ---
 
-## 1. Giới thiệu Hệ Thống
+## 1. Giới thiệu hệ thống
 
-Hệ thống **Quản Lý Tài Liệu Thông Minh** là một ứng dụng web và mobile được xây dựng bằng **Flutter**, kết hợp công nghệ **Firebase** và **Google ML Kit** để cung cấp một giải pháp quản lý tài liệu toàn diện và hiện đại.
+Hệ thống **Quản Lý Tài Liệu Thông Minh** được xây dựng bằng Flutter, kết hợp Firebase và Google ML Kit để cung cấp giải pháp quản lý tài liệu toàn diện, hiệu quả và thông minh. Hệ thống tự động phân loại tệp, trích xuất văn bản từ hình ảnh (OCR) và hỗ trợ chia sẻ tài liệu an toàn.
 
-Hệ thống được thiết kế dành cho các tổ chức, công ty, và cá nhân cần quản lý số lượng lớn tài liệu điện tử một cách hiệu quả, an toàn và dễ dàng.
+**Các chức năng chính**
 
-### 🎯 Các Tính Năng Chính
+Người dùng:
+- Đăng ký / Đăng nhập với xác thực Firebase (hỗ trợ đa tài khoản)
+- Tải lên tài liệu (hỗ trợ 13+ định dạng tệp)
+- Phân loại tệp tự động (8 danh mục: Word, Excel, PDF, Hình ảnh, v.v.)
+- Trích xuất văn bản (OCR) từ hình ảnh với hỗ trợ tiếng Việt
+- Tìm kiếm toàn văn bản nhanh chóng và chính xác
+- Xem chi tiết tài liệu và quản lý metadata
+- Tải xuống tài liệu ở định dạng gốc
+- Chia sẻ tài liệu an toàn với liên kết độc nhất (SHA256)
 
-#### **Cho Người Dùng:**
-- ✅ **Đăng ký / Đăng nhập** với xác thực Firebase (hỗ trợ đa tài khoản)
-- ✅ **Tải lên tài liệu** (hỗ trợ 13+ định dạng tệp)
-- ✅ **Phân loại tệp tự động** (8 danh mục: Word, Excel, PDF, Hình ảnh, v.v.)
-- ✅ **Trích xuất văn bản (OCR)** từ hình ảnh với hỗ trợ tiếng Việt
-- ✅ **Tìm kiếm toàn văn bản** nhanh chóng và chính xác
-- ✅ **Xem chi tiết tài liệu** và quản lý metadata
-- ✅ **Tải xuống tài liệu** ở định dạng gốc
-- ✅ **Chia sẻ tài liệu** an toàn với liên kết độc nhất (SHA256)
-- ✅ **Quét tài liệu** bằng camera (chế độ OCR)
+Quản trị viên:
+- Quản lý người dùng và quyền hạn
+- Theo dõi hoạt động tải lên/tải xuống
+- Quản lý chia sẻ tài liệu
+- Thống kê sử dụng hệ thống
 
 ---
 
-## 2. Ngôn Ngữ & Công Nghệ Chính
+## 2. Ngôn ngữ & Công nghệ chính
 
 <div align="center">
 
-### Frontend Framework
 [![Flutter](https://img.shields.io/badge/Flutter-3.8+-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-2.19+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-
-### Backend & Authentication
 [![Firebase Auth](https://img.shields.io/badge/Firebase%20Auth-v13+-FF9800?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/auth)
 [![Firestore](https://img.shields.io/badge/Firestore-Cloud-orange?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/firestore)
-
-### AI & Machine Learning
 [![Google ML Kit](https://img.shields.io/badge/Google%20ML%20Kit-0.15.0-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/ml-kit)
-[![OCR](https://img.shields.io/badge/OCR-Text%20Recognition-green?style=for-the-badge)](https://developers.google.com/ml-kit/vision/text-recognition)
 
 </div>
 
+| Thành Phần | Công Nghệ | Phiên Bản |
+|-----------|----------|---------|
+| Frontend | Flutter | 3.8+ |
+| Ngôn Ngữ | Dart | 2.19+ |
+| Xác Thực | Firebase Auth | v13+ |
+| CSDL | Firestore | Latest |
+| OCR | Google ML Kit | 0.15.0 |
+| File Picker | file_picker | 7.1+ |
+| Archive | archive | 3.6.1 |
+
 ---
 
-## 3. Cấu Trúc Dự Án
+## 3. Cấu trúc dự án
 
 ```
 lib/
-├── screens/                          # UI Screens
-│   ├── login_screen.dart            # Đăng nhập
-│   ├── register_screen.dart         # Đăng ký
-│   ├── forgot_password_screen.dart  # Quên mật khẩu
-│   ├── document_screen.dart         # Quản lý tài liệu
-│   ├── scan_screen.dart             # Quét OCR
-│   ├── user_page.dart               # Trang cá nhân
-│   └── document_management_features.dart # UI Features
-│
-├── services/                         # Business Logic
-│   ├── auth_service.dart            # Xác thực
-│   ├── file_list_service.dart       # Quản lý tệp
-│   ├── file_upload_service.dart     # Tải lên tệp
-│   ├── category_service.dart        # Phân loại tệp
-│   ├── ocr_service.dart             # Trích xuất văn bản
-│   ├── share_service.dart           # Chia sẻ tài liệu
-│   └── database_service.dart        # Cơ sở dữ liệu
-│
-├── widgets/                          # Reusable Components
-│   ├── background_container.dart    # Nền trang
-│   └── custom_button.dart           # Nút tùy chỉnh
-│
-├── firebase_options.dart            # Cấu hình Firebase
-└── main.dart                        # Điểm vào ứng dụng
-
-pubspec.yaml                         # Dependencies
-analysis_options.yaml               # Lint rules
+├── screens/
+│   ├── login_screen.dart
+│   ├── register_screen.dart
+│   ├── document_screen.dart
+│   ├── scan_screen.dart
+│   └── user_page.dart
+├── services/
+│   ├── auth_service.dart
+│   ├── file_list_service.dart
+│   ├── category_service.dart
+│   ├── ocr_service.dart
+│   └── share_service.dart
+└── main.dart
 ```
 
 ---
 
-## 4. Các Bước Cài Đặt
+## 4. Các bước cài đặt
 
-### 📋 Yêu Cầu Hệ Thống
+**Yêu cầu hệ thống**
+- Flutter SDK: 3.8 hoặc cao hơn
+- Dart SDK: 2.19 hoặc cao hơn
 
-- **Flutter SDK**: 3.8 hoặc cao hơn
-- **Dart SDK**: 2.19 hoặc cao hơn
-
-### 🚀 Cài Đặt Nhanh
-
+**Cài đặt**
 ```bash
 # 1. Clone repository
 git clone https://github.com/your-repo/quan_ly_van_ban.git
@@ -140,82 +108,20 @@ flutter pub get
 # 3. Cấu hình Firebase
 flutterfire configure
 
-# 4. Chạy ứng dụng trên Web
-flutter run -d chrome
-
-# Hoặc Android
-flutter run -d android
-
-# Hoặc iOS
-flutter run -d ios
+# 4. Chạy ứng dụng
+flutter run -d chrome      # Web
+flutter run -d android     # Android
+flutter run -d ios         # iOS
 ```
 
 ---
 
-## 5. Tính Năng Chi Tiết
+## 5. Liên hệ
 
-### 📁 Phân Loại Tệp Tự Động
+- **Sinh viên thực hiện:** **Lương Quốc Diệu**
+- **Khoa công nghệ thông tin – Trường Đại học Đại Nam**
+- 🌐 Website: [https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+- 📧 Email: [luongquocdieu2004@gmail.com](mailto:luongquocdieu2004@gmail.com)
+- 📱 Fanpage: [AIoTLab - FIT DNU](https://www.facebook.com/DNUAIoTLab)
 
-| Danh Mục | Phần Mở Rộng | Màu Sắc |
-|----------|-------------|---------|
-| **Word** | doc, docx | Xanh |
-| **Excel** | xls, xlsx | Lục |
-| **PowerPoint** | ppt, pptx | Cam |
-| **PDF** | pdf | Đỏ |
-| **Text** | txt | Xám |
-| **Hình Ảnh** | jpg, png, gif | Tím |
-| **Video** | mp4, avi | Hồng |
-| **Khác** | --- | Trắng |
-
-### 🤖 Trích Xuất Văn Bản (OCR)
-
-- ✅ **Hỗ trợ 80+ ngôn ngữ** bao gồm tiếng Việt
-- ✅ **Độ chính xác: 87%** trên hình ảnh chất lượng bình thường
-- ✅ **Thời gian xử lý: 1.5 giây** trung bình
-
-### 🔐 Chia Sẻ An Toàn
-
-3 chế độ chia sẻ: Công khai, Người dùng cụ thể, và An toàn với SHA256 encryption
-
----
-
-## 6. Kết Quả Thực Nghiệm
-
-### 📊 Phân Loại Tệp: 94% Độ Chính Xác
-### 🎯 OCR: 87% Độ Chính Xác
-
-Xem chi tiết trong bài báo khoa học: `BIEU_BAO_KHOA_HOC.tex`
-
----
-
-## 7. Liên Hệ
-
-### 👨‍💻 Tác Giả
-
-- **Nguyễn Văn B.** - nguyenvb@vnu.edu.vn
-- **Trần Thị C.** - tranthic@vnu.edu.vn
-
-### 🏫 Tổ Chức
-
-- Khoa Công Nghệ Thông Tin
-- Trường Đại Học Công Nghệ
-- Đại Học Quốc Gia TP.HCM
-- Website: https://vnu.edu.vn/
-
----
-
-## 8. Giấy Phép
-
-MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
-
----
-
-<div align="center">
-
-### ⭐ Nếu bạn thích dự án này, hãy cho chúng tôi một ⭐!
-
-**Cùng xây dựng tương lai của quản lý tài liệu số hóa!**
-
-© 2025 **Faculty of Information Technology**, **National University of Ho Chi Minh City**.
-
-</div>
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
