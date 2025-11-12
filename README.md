@@ -14,8 +14,8 @@
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
-[![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
-[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
+[![Faculty of Information Technology](https://github.com/LuongQuocDieu/CDS-1604-Quan_Ly_Van_Ban/blob/5300d90957e6ffc24926ec933f07c1fd956b4652/assets/dnu_logo.png)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+[![DaiNam University](https://github.com/LuongQuocDieu/CDS-1604-Quan_Ly_Van_Ban/blob/5300d90957e6ffc24926ec933f07c1fd956b4652/assets/fitdnu_logo.png)](https://dainam.edu.vn)
 
 </div>
 
